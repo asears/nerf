@@ -1,6 +1,6 @@
 import os, sys
 os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
-# os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 import tensorflow as tf
 tf.compat.v1.enable_eager_execution()
 
